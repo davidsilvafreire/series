@@ -1,0 +1,124 @@
+*
+{
+    margin: 0;
+}
+html, body
+{
+    height: 100%;
+}
+.topo
+{
+    width: 100%;
+    font-size: 22px;
+    font-family: sans-serif;
+    background-color: #4710c1;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+.topo .cabecalho
+{
+    width: 100%;
+    max-width: 1024px;
+    margin: 0 auto;
+    display: inline;
+}
+.topo a 
+{
+    background-color: #fff;
+    font-size: 15px;
+    text-decoration: none;
+    padding: 12px;
+    margin: 20px;
+    border-radius: 20px;
+    font-weight: bold;
+}
+.topo a:hover
+{
+    background-color: #4710c1;
+    color: #fff;
+    border: 1px solid #fff;
+    font-weight: normal;
+}
+.imagem-capa
+{
+    width: 100%;
+}
+/*========== seção global*/
+/*========== seção sinopse*/
+.secao
+{
+    width: 100%;
+    max-width: 1024px;
+    margin: 0 auto;
+}
+.secao p
+{
+    width: 100%;
+    font-family: sans-serif;
+    font-size: 16px;
+    line-height: 25px;
+    margin: 12px 0;
+}
+.secao h2
+{
+    font-family: sans-serif;
+    font-size: 26px;
+    text-align: center;
+    margin: 12px 0;
+}
+/*=========== seção disponiblidade*/
+.secao img
+{
+    width: 100%;
+}
+
+/*=========== seção galeria*/
+.galeria
+{
+    display: flex;
+    overflow-x: scroll;
+    margin: 0 auto 20px auto;
+}
+.galeria img
+{
+    width: 315px;
+    margin: 10px;
+    box-shadow: 10px 10px 10px #939393;
+}
+
+/*=========== informações*/
+.informacoes
+{
+    text-align: center;
+}
+.informacoes a 
+{
+    text-decoration: none;
+    color: #fff;
+    background-color: black;
+    padding: 10px;
+    margin: 0 10px;
+    border-radius: 20px;  
+    font-weight: bold;
+}
+.informacoes a:hover
+{
+    background-color: #fff;
+    color: #000;
+    border: 1.9px solid #000;
+}
+
+/*=========== seção rodapé*/
+.rodape
+{
+    background-color: #4710c1;
+    width: 100%;
+    text-align: center;
+    padding: 20px 0;
+    color: #fff;
+    font-family: sans-serif;
+    font-size: 26px;
+}
+
+/*--->>>> resolver o menu com @media  ??????*/
